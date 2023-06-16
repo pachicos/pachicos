@@ -1,0 +1,72 @@
+/*ESTILOS GENERALES*/
+* {
+    box-sizing: border-box;
+}
+
+/*FUENTE*/
+.fuente {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*LETRA*/
+.letra2{
+    font-weight: bold;
+}
+
+
+/*COLORES*/
+.color1 {
+    background: #C9961A;
+}
+.color2 {
+    background: green;
+}
+
+
+/*BORDES*/
+.linea1 {
+    border: 2px solid black;
+}
+
+
+/*ALINEACION*/
+.espacio {
+    padding-bottom: 100px;
+}
+.espacio2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.espacio3 {
+    padding-top: 100px;
+}
+
+/*CAJA*/
+.caja{
+    background-color: darkblue;
+    height: 600px;
+}
+.caja1{
+    background-color: lightblue;
+    height: 550px;
+}
+.caja2{
+    height: 700px;
+}
+.caja3{
+    height: 500px;
+    background-color: rgb(165, 108, 42);
+}
+.caja4{
+    height: 400px;
+}
+.caja5{
+    height: 100px;
+    background-color: #C9961A;
+}
+.caja6{
+    height: 200px;
+}
+.caja7{
+    height: 400px;
+}
