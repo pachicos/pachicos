@@ -12,6 +12,9 @@
 .letra2{
     font-weight: bold;
 }
+.texto1{
+    font-weight: bold;
+}
 
 
 /*COLORES*/
@@ -20,6 +23,30 @@
 }
 .color2 {
     background: green;
+}
+
+
+/*FONDOS*/
+.fondo{
+    background-image: url(/images/Fondo-home.png);
+    background-size: cover;
+    background-position: center;
+}
+.fondo1{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+/*ALTURA*/
+.altoH{
+    padding: 50px;
+    border-radius:  0px 0px 30% 30%;
+}
+.ancho{
+    width: 70%;
 }
 
 
@@ -39,6 +66,17 @@
 }
 .espacio3 {
     padding-top: 100px;
+}
+.espacio4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.espacio5{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 /*CAJA*/
