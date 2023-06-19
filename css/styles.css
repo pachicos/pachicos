@@ -108,8 +108,8 @@ body {
 
 /*MAPA*/
 .fondoMapaA{
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
+    border-top-right-radius: 50% 15%;
+    border-top-left-radius: 50% 15%;
     margin: 10px;
     padding: 10px;
     background-color: white;
@@ -194,8 +194,8 @@ body {
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .EspacioCartelJuegos{
     padding-top: 40px;
@@ -211,6 +211,9 @@ body {
     padding: 30px;
     text-align: center;
 }
+.espacioDebajo{
+    margin-bottom: 5%;
+}
 
 
 
@@ -220,7 +223,7 @@ body {
     background-image: url("../images/footer.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 13%;
+    padding-top: 10%;
 }
 .EspacioFooterIn{
     padding: 10px;
@@ -242,7 +245,20 @@ body {
 }
 .EspacioInfoC{
     padding-left: 55px;
-    height:fit-content ;
+}
+.listacontac{
+    list-style: url("../images/vineta-sol.png");
+}
+.alineoIcoRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.separaIco {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
