@@ -4,107 +4,256 @@
 }
 
 /*FUENTE*/
-.fuente {
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*LETRA*/
-.letra2{
-    font-weight: bold;
+/*Colores*/
+.magen{
+    background-color: #E60080;
 }
-.texto1{
-    font-weight: bold;
+.verde{
+    background-color: #BCCF00;
+}
+.azul{
+    background-color: #009FE3;
+}
+.naranja{
+    background-color: #F39200;
+}
+.cafe{
+    background-color: #A55E25;
+}
+.morado{
+    background-color: #93278F;
+}
+.amarillo{
+    background-color: #FFE000;
 }
 
 
-/*COLORES*/
-.color1 {
+
+
+/*BARRA NAVEGACION*/
+.espacioDebajoN {
+    padding-bottom: 87px;
+}
+.colorFN {
     background: #C9961A;
 }
-.color2 {
-    background: green;
+.TextoBotNav{
+    font-weight: bolder;
 }
 
 
-/*FONDOS*/
-.fondo{
-    background-image: url(/images/Fondo-home.png);
-    background-size: cover;
-    background-position: center;
+
+
+/*ENCABEZADO*/
+.FondoEncabezadoHome{
+    background-image: url("../images/Fondo-home.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
 }
-.fondo1{
+.altoH{
+    padding: 50px;
+}
+.altoB{
+    padding: 10px;
+}
+.fondoBlancoLetra{
     border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.espaciosCajaTexto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.textoTitulo{
+    font-weight: bolder;
+}
+.Flecha{
+    width: 30px;
+    padding: 5px;
+}
+.botonApreEnca{
+    color:white;
+    padding: 10px;
+    background-color: #C9961A;
+    border: none;
+    border-radius: 5px;
+}
+.botonApreEnca:hover{
+    color:white;
+    padding: 10px;
+    background-color: #b48817;
+    border: none;
+    border-radius: 5px;
+}
+.EspacioSol{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+/*MAPA*/
+.fondoMapaA{
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
     margin: 10px;
     padding: 10px;
     background-color: white;
 }
+.EspacioMapaA {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.FondoMad{
+    background-image: url("../images/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imMapa{
+    width: 100%;
+}
+.EspacioCartelMap{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.TextCartelMap{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
 
 
-/*ALTURA*/
-.altoH{
-    padding: 50px;
-    border-radius:  0px 0px 30% 30%;
+
+
+/*VIDEO*/
+.VideoT{
+    width: 100%;
+    height: 490px;
 }
-.ancho{
-    width: 70%;
+.FondoVideoTi{
+    background-image: url("../images/fondo-video.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+}
+.EspacioSepaVide{
+    padding-top: 1%;
+}
+.EspacioCartelVid{
+    padding-top: 230px;
+    padding-bottom: 5px;
+}
+.FondoVidC{
+    background-image: url("../images/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
-/*BORDES*/
-.linea1 {
-    border: 2px solid black;
-}
 
-
-/*ALINEACION*/
-.espacio {
-    padding-bottom: 100px;
-}
-.espacio2 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.espacio3 {
-    padding-top: 100px;
-}
-.espacio4{
+/*CARRUSEL*/
+.alineaTarCa{
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-.espacio5{
+.tarjeta{
+    padding: 10px;
+    margin: 5px;
+}
+.bordeImaJueg{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 30% 10%;
+    overflow: hidden;
+}
+.bordeImaJuegEx{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.espacioLetraCaJue{
+    padding: 9px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.EspacioCartelJuegos{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelJuegos{
+    background-image: url("../images/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelJuegos{
+    color: white;
+    padding: 30px;
+    text-align: center;
 }
 
-/*CAJA*/
-.caja{
-    background-color: darkblue;
-    height: 600px;
+
+
+
+/*FOOTER*/
+.FondoFooter{
+    background-image: url("../images/footer.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 13%;
 }
-.caja1{
-    background-color: lightblue;
-    height: 550px;
+.EspacioFooterIn{
+    padding: 10px;
 }
-.caja2{
-    height: 700px;
+.EspacioLogoFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.caja3{
-    height: 500px;
-    background-color: rgb(165, 108, 42);
+.TextFooter{
+    color: black;
+    font-weight:bold;
 }
-.caja4{
-    height: 400px;
+.TextFooter1{
+    color: white;
 }
-.caja5{
+.EspacioInfoFoot {
+    padding: 15px;
+}
+.EspacioInfoC{
+    padding-left: 55px;
+    height:fit-content ;
+}
+
+
+
+
+
+
+
+.linea{
+    border: 2px solid black;
+}
+.alto{
     height: 100px;
-    background-color: #C9961A;
-}
-.caja6{
-    height: 200px;
-}
-.caja7{
-    height: 400px;
 }
