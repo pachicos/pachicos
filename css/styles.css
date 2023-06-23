@@ -44,13 +44,16 @@ body {
 .TextoBotNav{
     font-weight: bolder;
 }
+.anchoL {
+    width: 450px;
+}
 
 
 
 
 /*ENCABEZADO*/
 .FondoEncabezadoHome{
-    background-image: url("../images/Fondo-home-sol.jpg");
+    background-image: url("../images/fondos/Fondo-home-sol.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position:top;
@@ -65,7 +68,7 @@ body {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    background-image: url("../images/fondo-blanco-letra.png");
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
     background-size: 300%;
     background-repeat: no-repeat;
     background-position:center;
@@ -119,7 +122,7 @@ body {
     padding-bottom: 10px;
 }
 .FondoMad{
-    background-image: url("../images/letreroV1.png");
+    background-image: url("../images/fondos/letreroV1.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -145,7 +148,7 @@ body {
     height: 490px;
 }
 .FondoVideoTi{
-    background-image: url("../images/fondo-video.png");
+    background-image: url("../images/fondos/fondo-video.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 180px;
@@ -158,7 +161,7 @@ body {
     padding-bottom: 5px;
 }
 .FondoVidC{
-    background-image: url("../images/letreroV2.png");
+    background-image: url("../images/fondos/letreroV2.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -202,7 +205,7 @@ body {
     padding-bottom: 40px;
 }
 .FondoCartelJuegos{
-    background-image: url("../images/letreroV1.png");
+    background-image: url("../images/fondos/letreroV1.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -220,7 +223,7 @@ body {
 
 /*FOOTER*/
 .FondoFooter{
-    background-image: url("../images/footer.png");
+    background-image: url("../images/fondos/footer.png");
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 10%;
@@ -247,7 +250,7 @@ body {
     padding-left: 55px;
 }
 .listacontac{
-    list-style: url("../images/vineta-sol.png");
+    list-style: url("../images/iconos/vineta-sol.png");
 }
 .alineoIcoRedes{
     display: flex;
@@ -264,12 +267,189 @@ body {
 
 
 
-
-
-
 .linea{
     border: 2px solid black;
 }
-.alto{
-    height: 100px;
+
+
+
+
+
+
+/* Very Small devices (phones, 50px and up)*/
+@media (min-width: 50px) and (max-width: 576px) {
+
+
+
+/*BARRA NAVEGACION*/
+.anchoL {
+    width: 250px;
+}
+.espacioDebajoN {
+    padding-bottom: 70px;
+}
+
+
+
+
+/*ENCABEZADO*/
+.FondoEncabezadoHome{
+    background-image: url("../images/fondos/Fondo-home-sol-movil.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding-bottom: 0px;
+}
+.altoH{
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.fondoBlancoLetra{
+    border-radius: 15px;
+}
+.Flecha{
+    width: 35px;
+    padding: 5px;
+}
+.botonApreEnca{
+    padding: 15px;
+    border-radius: 9px;
+    font-size: 20px;
+}
+.botonApreEnca:hover{
+    padding: 15px;
+    border-radius: 9px;
+}
+
+
+
+
+/*MAPA*/
+.fondoMapaA{
+    border-top-right-radius: 40% 10%;
+    border-top-left-radius: 40% 10%;
+}
+.FondoMad{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.EspacioCartelMap{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.TextCartelMap{
+    padding: 25px;
+}
+.EspacioSepaVide{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*VIDEO*/
+.VideoT{
+    height: 200px;
+}
+.FondoVideoTi{
+    background-image: url("../images/fondos/fondo-video-movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 40px;
+    padding-bottom: 60px;
+}
+.EspacioCartelVid{
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+.FondoVidC{
+    background-image: url("../images/fondos/letreroMovil.png");
+}
+
+
+
+/*CARRUSEL*/
+.tarjeta{
+    padding: 5px;
+    margin: 0px;
+}
+.EspacioCartelJuegos{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelJuegos{
+    background-image: url("../images/fondos/letreroMovil.png");
+}
+.espacioDebajo{
+    margin-bottom: 50px;
+}
+
+
+
+
+/*FOOTER*/
+.FondoFooter{
+    background-image: url("../images/fondos/footerMovil.png");
+}
+.EspacioFooterIn{
+    padding: 30px;
+}
+.EspacioInfoFoot {
+    padding: 0px;
+}
+.EspacioInfoC{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.listacontac{
+    list-style: url("../images/iconos/vineta-sol-movil.png");
+}
+.alineoIcoRedes{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.separaIco {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+}
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    /*BARRA NAVEGACION*/
+    .anchoL {
+        width: 450px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
 }
