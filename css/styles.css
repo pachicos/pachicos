@@ -3,38 +3,62 @@
     box-sizing: border-box;
 }
 
+
 /*FUENTE*/
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /*Colores*/
-.magen{
+.magenta{
     background-color: #E60080;
+}
+.magentaO{
+    background-color: #af0362;
 }
 .verde{
     background-color: #BCCF00;
 }
+.verdeO{
+    background-color: #8a9903;
+}
 .azul{
     background-color: #009FE3;
+}
+.azulO{
+    background-color: #03709e;
 }
 .naranja{
     background-color: #F39200;
 }
+.naranjaO{
+    background-color: #a76501;
+}
 .cafe{
     background-color: #A55E25;
+}
+.cafeO{
+    background-color: #744015;
 }
 .morado{
     background-color: #93278F;
 }
+.moradoO{
+    background-color: #6d196a;
+}
 .amarillo{
     background-color: #FFE000;
+}
+.amarilloO{
+    background-color: #ad9a06;
 }
 
 
 
 
-/*BARRA NAVEGACION*/
+
+/*----------------BARRA NAVEGACION GENERAL----------------*/
 .espacioDebajoN {
     padding-bottom: 87px;
 }
@@ -50,8 +74,57 @@ body {
 
 
 
+/*----------------FOOTER GENERAL----------------*/
+.FondoFooter{
+    background-image: url("../images/fondos/footer.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+}
+.EspacioFooterIn{
+    padding: 10px;
+}
+.EspacioLogoFoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TextFooter{
+    color: black;
+    font-weight:bold;
+}
+.TextFooter1{
+    color: white;
+}
+.EspacioInfoFoot {
+    padding: 15px;
+}
+.EspacioInfoC{
+    padding-left: 55px;
+}
+.listacontac{
+    list-style: url("../images/iconos/vineta-sol.png");
+}
+.alineoIcoRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.separaIco {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
-/*ENCABEZADO*/
+
+
+
+/*HOME*/
+
+
+
+/*----------------ENCABEZADO HOME----------------*/
 .FondoEncabezadoHome{
     background-image: url("../images/fondos/Fondo-home-sol.jpg");
     background-size: 100%;
@@ -62,7 +135,8 @@ body {
     padding: 50px;
 }
 .altoB{
-    padding: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 .fondoBlancoLetra{
     border-radius: 10px;
@@ -88,17 +162,21 @@ body {
 }
 .botonApreEnca{
     color:white;
-    padding: 10px;
+    padding: 15px;
     background-color: #C9961A;
     border: none;
-    border-radius: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 .botonApreEnca:hover{
     color:white;
-    padding: 10px;
+    padding: 15px;
     background-color: #b48817;
     border: none;
-    border-radius: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 .EspacioSol{
     display: flex;
@@ -108,8 +186,7 @@ body {
 
 
 
-
-/*MAPA*/
+/*----------------MAPA DEL HOME----------------*/
 .fondoMapaA{
     border-top-right-radius: 50% 15%;
     border-top-left-radius: 50% 15%;
@@ -141,8 +218,7 @@ body {
 
 
 
-
-/*VIDEO*/
+/*----------------VIDEO HOME----------------*/
 .VideoT{
     width: 100%;
     height: 540px;
@@ -168,7 +244,7 @@ body {
 
 
 
-/*CARRUSEL*/
+/*----------------CARRUSEL HOME----------------*/
 .alineaTarCa{
     display: flex;
     justify-content: center;
@@ -221,48 +297,428 @@ body {
 
 
 
-/*FOOTER*/
-.FondoFooter{
-    background-image: url("../images/fondos/footer.png");
+/*APRENDE*/
+
+
+/*----------------ENCABEZADO APRENDE----------------*/
+.FondoEncabezadoAprende{
+    background-image: url("../images/fondos/Fondo-apre-web.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.altoA{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.altoAp{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.fondoBlancoLetraA{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.espaciosCajaTextoA{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.textoTituloA{
+    font-weight: bolder;
+}
+.FlechaA{
+    width: 30px;
+    padding: 5px;
+}
+.botonApreEncaA{
+    color:white;
+    padding: 15px;
+    background-color: #C9961A;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonApreEncaA:hover{
+    color:white;
+    padding: 15px;
+    background-color: #b48817;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.EspacioSolA{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+/*----------------SABES QUE ES MITO O LEYENDA----------------*/
+.fondoSabes{
+    background-image: url("../images/fondos/fondo_zigzagapre_web.png");
+    padding: 20px;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 10%;
+    background-position:top;
 }
-.EspacioFooterIn{
+.FondoSabesC{
+    background-image: url("../images/fondos/fondo_queesmitos_web.jpg");
+    padding: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.EspacioSabesA {
+    padding-top: 150px;
+    padding-bottom: 10px;
+}
+
+
+
+/*----------------TARJETAS DE MITOS Y LEYENDAS----------------*/
+.EspacioCartelMyL{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelMyL{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelMyL{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.tarjetaMYL{
     padding: 10px;
+    margin: 5px;
 }
-.EspacioLogoFoot{
+.bordeImaTarjeta{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.bordeImaTarjetaIm{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 30% 10%;
+    overflow: hidden;
+}
+.espacioLetraTarjetaMyL{
+    padding: 9px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-.TextFooter{
-    color: black;
-    font-weight:bold;
+.espacioDebajoMyL{
+    margin-bottom: 5%;
 }
-.TextFooter1{
+.MyLTexto{
+    font-weight: bolder;
+}
+.MyLTextoB{
+    font-weight: bolder;
     color: white;
 }
-.EspacioInfoFoot {
+.MyLTextoBN{
+    color: white;
+}
+.MyLespacioTexto{
+    padding: 5px;
+}
+.MyLespacioTextoBoton{
+    padding-bottom: 20px;
+}
+.ImaTarjetaIm{
+    width: 100%;
+}
+.ImaTarjetaIm:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.espacioCajaMyL{
+    padding-top: 50px;
+}
+.botonJuegarTarjeta{
+    color:white;
     padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
 }
-.EspacioInfoC{
-    padding-left: 55px;
+.botonJuegarTarjeta:hover{
+    color:white;
+    padding: 15px;
+    mix-blend-mode: screen;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
 }
-.listacontac{
-    list-style: url("../images/iconos/vineta-sol.png");
+
+
+
+/*BLOG*/
+
+
+
+/*----------------VIDEO ENCABEZADO BLOG----------------*/
+.FondoVBlo{
+    background-image: url("../images/fondos/fondo_blogv_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
 }
-.alineoIcoRedes{
+.TextCartelVBlo{
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+.espacioCartelVBlog{
+    padding-top: 50px;
+}
+.VideoEBlog{
+    width: 100%;
+    height: 410px;
+}
+.espacioVblog{
+    padding-top: 30px;
+}
+.FondoCartelVBlo{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------MISION VISION----------------*/
+.FondoMisionVision{
+    background-image: url("../images/fondos/fondo_visionmision_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.espacioCajaVisionMision{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.espacioSeparadVisionMision{
+    padding-bottom: 50px;
+}
+.TextoMisionVision{
+    font-weight: bolder;
+}
+
+
+
+/*----------------FILOSOFIA----------------*/
+.FondoCartelFilo{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelFilo{
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+.espacioCartelFilo{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.espacioFilo{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.imgFilosofia{
+    width: 100%;
+    padding: 30px;
+}
+.imgFilosofia:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.alineaFiloItems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+/*----------------EQUIPO DE TRABAJO----------------*/
+.EspacioCartelEdT{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.FondoCartelEdT{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelEdT{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.tarjetaEdT{
+    padding: 10px;
+    margin: 5px;
+}
+.bordeImaTarjetaEq{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+}
+.bordeImaTarjetaImEq{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50% 40%;
+    border-bottom-left-radius: 30% 10%;
+    overflow: hidden;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
+}
+.espacioLetraTarjetaEq{
+    padding: 9px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.espacioDebajoEq{
+    margin-bottom: 5%;
+}
+.EqTexto{
+    font-weight: bolder;
+}
+.EqTextoB{
+    font-weight: bolder;
+    color: white;
+}
+.EqTextoBN{
+    color: white;
+}
+.EqespacioTexto{
+    padding: 5px;
+}
+.EqespacioTextoBoton{
+    padding-bottom: 20px;
+}
+.ImaTarjetaImEq{
+    width: 80%;
+}
+.ImaTarjetaImEq:hover{
+    transform: scale(1.1);
+    transition: transform 0.55s;
+}
+.espacioCajaEq{
+    padding-top: 50px;
+}
+.botonJuegarTarjetaEq{
+    color:white;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonJuegarTarjetaEq:hover{
+    color:white;
+    padding: 15px;
+    mix-blend-mode: screen;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+/*----------------SPOT BLOG----------------*/
+.VideoSpot{
+    width: 100%;
+    height: 540px;
+}
+.FondoVideoSpot{
+    background-image: url("../images/fondos/fondo-video.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+}
+.EspacioSepaVideSpot{
+    padding-top: 80px;
+}
+.EspacioCartelVidSpot{
+    padding-top: 320px;
+    padding-bottom: 35px;
+}
+.FondoVidCSpot{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelVideoSpot{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*----------------FITBOOKS----------------*/
+.EspacioCartelFli{
+    padding-top: 50px;
     padding-bottom: 25px;
 }
-.separaIco {
-    margin-left: 15px;
-    margin-right: 15px;
+.FondoVidCFli{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+.TextCartelFli{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.espacioSeparadFli{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.flic{
+    height: 500px;
+    background-color: #a76501;
+}
+
+
+
+
+
 
 
 
@@ -292,14 +748,7 @@ body {
 
 
 
-/*ENCABEZADO*/
-.FondoEncabezadoHome{
-    background-image: url("../images/fondos/Fondo-home-sol-movil.jpg");
-    background-size: 110%;
-    background-repeat: no-repeat;
-    background-position:top;
-    padding-bottom: 0px;
-}
+/*ENCABEZADO GENERAL*/
 .altoH{
     padding-top: 15px;
     padding-right: 0px;
@@ -324,6 +773,20 @@ body {
 }
 
 
+/*FONDOS ENCABEZADO*/
+.FondoEncabezadoHome{
+    background-image: url("../images/fondos/Fondo-home-sol-movil.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding-bottom: 0px;
+}
+.FondoEncabezadoAprende{
+    background-image: url("../images/fondos/Fondo-apre-movil.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
 
 
 /*MAPA*/
