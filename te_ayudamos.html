@@ -29,7 +29,7 @@
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid FondoFormulario">
  
         <!--BARRA DE NAVEGACION-->
         <div class="row espacioDebajoN">
@@ -53,7 +53,7 @@
                             <ul class="navbar-nav mb-lg-0 TextoBotNav">
     
                                 <li class="nav-item">
-                                    <a class="nav-link" style="color:white" href="home.html">HOME</a>
+                                    <a class="nav-link" style="color:white" href="index.html">HOME</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" style="color:white" href="aprende.html">APRENDE</a>
@@ -78,31 +78,52 @@
         </div>
 
 
-        <!--INICIO DEL HOME-->
-        <div class="row FondoEncabezadoHome">
+        <!--INICIO DEL TE AYUDAMOS-->
+        <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
+        
                 <!--ENCABEZADO-->
-                <div class="row justify-content-center altoH">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 espaciosCajaTexto animate__animated animate__fadeIn animate__slow-3s">
-                        <div class="fondoBlancoLetra">
-                            <h3 class="textoTitulo">Diviérte y aprende sobre los mitos y leyendas de Colombia</h3>
-                            <p class="textoTitulo">Pa’ chicos es una página web que apoya e impulsa el aprendizaje de mitos y leyendas colombianas
-                                en nuestros niños y niñas.</p>
-                        </div>
-                        <div class="altoB animate__animated animate__bounceIn animate__slow-3s animate__delay-1s">
-                            <button class="botonApreEnca"><img src="images/iconos/icono-flecha.png" alt="" class="Flecha"> APRENDE</button>
+                <div class="row EspacioFormCaja">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
+                        <div class="EspacioSolForm">
+                            <img src="images/personajes/sol-lado.png" alt="" class="TamanoSolForm">
                         </div>
                     </div>
 
-                    <div class="col-12 col-sm-9 col-md-6 col-lg-4 col-xl-4 col-xxl-4 EspacioSol">
-                        <div class="EspacioSol">
-                            <img src="images/personajes/sol.png" alt="" style="width: 70%;">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 animate__animated animate__fadeIn animate__slow-3s">
+                        <div class="container-fluid">
+                            <form class="row fondoBlancoForm justify-content-center">
+        
+                                <div class="col-12 espacioFormCuadros">
+                                    <div class="box textFormEnca">
+                                        <h1 class="textFormEncaTitulo">Siempre te voy a escuchar</h1>
+                                        <h6>Por eso, si necesitas ayuda junto con tu adulto favorito completa el siguiente
+                                            formulario y muy pronto te escribiremos.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-12 espacioFormCuadros">
+                                    <input type="text" class="form-control" aria-describedby="Nombre" placeholder="Nombre:">
+                                </div>
+                                <div class="col-6 espacioFormCuadros">
+                                    <input type="text" class="form-control" placeholder="WhatsApp:">
+                                </div>
+                                <div class="col-6 espacioFormCuadros">
+                                    <input type="email" class="form-control" placeholder="Email:">
+                                </div>
+                                <div class="col-12 espacioFormCuadros">
+                                    <textarea class="form-control" rows="3" placeholder="Mensaje:"></textarea>
+                                </div>
+                                <div class="col-6 espacioFormCuadros botonAlineaForm">
+                                    <button type="submit" class="botonForm">Enviar</button>
+                                </div>
+        
+                            </form>
                         </div>
                     </div>
                 </div>
-
             </div>
+        
         </div>
 
         <!--FOOTER-->
@@ -110,15 +131,17 @@
             <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8 EspacioFooterIn">
                 <div class="container-fluid">
                     <div class="row justify-content-center EspacioInfoFoot">
-                        <div class="col-10 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 EspacioLogoFoot">
-                            <img src="images/logos/logo2.png" alt="" style="width: 120%;">
+                        <div class="col-10 col-sm-6 col-md-6 col-lg-5 col-xl-5 col-xxl-5 EspacioLogoFoot">
+                            <a href="index.html" class="espacioLinkLogoFooter">
+                                <img src="images/logos/logo2.png" alt="" style="width: 120%;">
+                            </a>
                         </div>
-                        <div class="col-10 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-10 col-sm-6 col-md-6 col-lg-5 col-xl-5 col-xxl-5">
                             <div class="EspacioInfoC">
                                 <ul class="listacontac">
                                     <li>
                                         <h3 class="TextFooter">Teléfono:</h3>
-                                        <h5 class="TextFooter1">0000000000</h5>
+                                        <h5 class="TextFooter1">(+57) 322 456 8462</h5>
                                     </li>
                                     <li>
                                         <h3 class="TextFooter">Contacto:</h3>
@@ -135,13 +158,15 @@
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-10 col-sm-8 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-5 col-xxl-5 alingContenFooterIco">
                             <div class="alineoIcoRedes">
-                                <h3 class="TextFooter separaIco">Siguenos:</h3>
-                                <a href="https://www.facebook.com/profile.php?id=100092326838590" target="_blank">
-                                <img src="images/iconos/facebook-icon.png" alt="" style="width: 70%;" class="separaIco"></a>
-                                <a href="https://www.instagram.com/pa_chicos/" target="_blank">
-                                <img src="images/iconos/instagram-icon.png" alt="" style="width: 70%;" class="separaIco"></a>
+                                <h3 class="TextFooter">Siguenos:</h3>
+                            </div>
+                            <div class="alineoIcoRedes">
+                                <a href="https://www.facebook.com/profile.php?id=100092326838590" target="_blank" class="separaIco">
+                                    <img src="images/iconos/facebook-icon.png" alt="" style="width: 70%;"></a>
+                                <a href="https://www.instagram.com/pa_chicos/" target="_blank" class="separaIco">
+                                    <img src="images/iconos/instagram-icon.png" alt="" style="width: 70%;"></a>
                             </div>
                         </div>
                     </div>

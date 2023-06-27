@@ -89,6 +89,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.espacioLinkLogoFooter{
+    margin-right: 50px;
+}
 .TextFooter{
     color: black;
     font-weight:bold;
@@ -111,10 +114,16 @@ body {
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .separaIco {
-    margin-left: 15px;
-    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alingContenFooterIco{
+    display: flex;
 }
 
 
@@ -219,9 +228,20 @@ body {
 
 
 /*----------------VIDEO HOME----------------*/
-.VideoT{
+.VideoTCaja{
+    position: relative;
     width: 100%;
-    height: 540px;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.VideoT{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
 }
 .FondoVideoTi{
     background-image: url("../images/fondos/fondo-video.jpg");
@@ -718,6 +738,122 @@ body {
 
 
 
+/*TE AYUDAMOS*/
+
+
+
+/*----------------ENCABEZADO----------------*/
+.FondoFormulario{
+    background-image: url("../images/fondos/fondo_ayuda_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.EspacioFormCaja{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EspacioSolForm{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.TamanoSolForm{
+    width: 50%;
+}
+
+
+/*----------------FORMULARIO----------------*/
+.fondoBlancoForm{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.espacioFormCuadros{
+    padding: 10px;
+}
+.textFormEnca{
+    text-align: center;
+}
+.textFormEncaTitulo{
+    font-weight: bolder;
+}
+.botonAlineaForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonForm{
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    background-color: #C9961A;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.botonForm:hover{
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 55px;
+    padding-left: 55px;
+    background-color: #b48817;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+.Carrusel1{
+    position: relative;
+}
+
+.CarruselItem{
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+}
+.Activar {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+.MapaIframeCaja{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100%;
+}
+.MapaIframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+
+  
+
+
+
 
 
 
@@ -771,6 +907,9 @@ body {
     padding: 15px;
     border-radius: 9px;
 }
+.EspacioSol{
+    padding-top: 15px;
+}
 
 
 /*FONDOS ENCABEZADO*/
@@ -804,7 +943,8 @@ body {
     padding-bottom: 20px;
 }
 .TextCartelMap{
-    padding: 25px;
+    padding: 20px;
+    font-size: 15px;
 }
 .EspacioSepaVide{
     padding-top: 20px;
@@ -815,20 +955,17 @@ body {
 
 
 /*VIDEO*/
-.VideoT{
-    height: 200px;
-}
 .FondoVideoTi{
     background-image: url("../images/fondos/fondo-video-movil.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-bottom: 60px;
 }
 .EspacioCartelVid{
-    padding-top: 120px;
-    padding-bottom: 10px;
+    padding-top: 110px;
+    padding-bottom: 0px;
 }
 .FondoVidC{
     background-image: url("../images/fondos/letreroMovil.png");
@@ -851,7 +988,10 @@ body {
 .espacioDebajo{
     margin-bottom: 50px;
 }
-
+.TextCartelJuegos{
+    padding: 20px;
+    font-size: 15px;
+}
 
 
 
@@ -872,14 +1012,33 @@ body {
 .listacontac{
     list-style: url("../images/iconos/vineta-sol-movil.png");
 }
-.alineoIcoRedes{
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+
+
+
+
+
+
+
+
+/*TE AYUDAMOS*/
+
+
+
+/*----------------ENCABEZADO----------------*/
+.FondoFormulario{
+    background-image: url("../images/fondos/fondo_ayuda_movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
-.separaIco {
-    margin-left: 15px;
-    margin-right: 15px;
+.EspacioFormCaja{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 }
 
