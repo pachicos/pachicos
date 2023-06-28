@@ -228,6 +228,21 @@ body {
     padding: 30px;
     text-align: center;
 }
+.MapaIframeCaja{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100%;
+}
+.MapaIframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
 
 
 
@@ -925,6 +940,10 @@ body {
 
 
 /*----------------ENCABEZADO----------------*/
+.CarruJuega{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 .FondoPJuegos{
     background-image: url("../images/fondos/fondo_juega_web.jpg");
     background-size: 100%;
@@ -955,6 +974,25 @@ body {
     justify-content: space-between;
     flex-direction: column;
 }
+
+
+
+
+
+
+
+
+/*MITOS Y LEYENDAS*/
+
+
+/*---------------------HUILA---------------------*/
+.AlineaImagenMito{
+    float: right;
+    margin-right: 15px;
+    padding: 15px;
+    width: 50%;
+}
+
 
 
 
