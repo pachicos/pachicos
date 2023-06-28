@@ -1034,6 +1034,10 @@ body {
 .ParrafoMito{
     font-size: 20px;
 }
+.centrarAudio{
+    display: flex;
+    justify-content: center;
+}
 
 
 
