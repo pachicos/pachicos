@@ -986,16 +986,163 @@ body {
 
 
 /*---------------------HUILA---------------------*/
+
+/*Titulo*/
+.espacioInicioMitoyL{
+    padding-top: 60px;
+}
+
+.AlingTituloMitosYL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TamaIcoMito{
+    width: 10%;
+    margin: 25px;
+}
+.TextoITituloMito{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+
+
+/*Mito*/
 .AlineaImagenMito{
     float: right;
     margin-right: 15px;
-    padding: 15px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     width: 50%;
+}
+.FondoTituloMito{
+    background-image: url("../images/fondos/letreroV2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.TituloMitosyL{
+    padding: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.ParrafoMito{
+    font-size: 20px;
 }
 
 
 
 
+/*Datos curiosos*/
+.espacioDatosMitoyL{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.AlingTituloDatosMitosYL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TextoITituloDatosMito{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 30px;
+    color: white;
+}
+.FondoTituloDatosMitos{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.AlingTextoDatosMitosYL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.TamaImaDatosMito{
+    width: 80%;
+}
+.fondoBlancoTextoDatos{
+    border-radius: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 10px;
+}
+.alingImgMap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*Fondos Datos de Mitos*/
+.Huila{
+    background-image: url("../images/fondos/fondo_huila_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Antioquia{
+    background-image: url("../images/fondos/fondo_antioquia_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Caldas{
+    background-image: url("../images/fondos/fondo_caldas_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cundinamarca{
+    background-image: url("../images/fondos/fondo_cundinamarca_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cauca{
+    background-image: url("../images/fondos/fondo_cauca_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Valle{
+    background-image: url("../images/fondos/fondo_valle_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Magdalena{
+    background-image: url("../images/fondos/fondo_magdalena_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Quindio{
+    background-image: url("../images/fondos/fondo_quindio_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Tolima{
+    background-image: url("../images/fondos/fondo_tolima_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 
 
@@ -1341,6 +1488,121 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+
+/*MITOS Y LEYENDAS*/
+
+
+
+
+
+/*---------------------HUILA---------------------*/
+
+/*Titulo*/
+.TamaIcoMito{
+    width: 25%;
+    margin: 25px;
+}
+.TextoITituloMito{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
+/*Mito*/
+.AlineaImagenMito{
+    float: none;
+    width: 100%;
+}
+
+
+
+/*Datos curiosos*/
+.espacioDatosMitoyL{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.AlingTituloDatosMitosYL{
+    text-align: center;
+}
+.TextoITituloDatosMito{
+    font-size: 35px;
+    padding: 30px;
+}
+.FondoTituloDatosMitos{
+    background-image: url("../images/fondos/letreroMovil.png");
+}
+.TamaImaDatosMito{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+
+
+/*Fondos Datos de Mitos*/
+.Huila{
+    background-image: url("../images/fondos/fondo_huila_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Antioquia{
+    background-image: url("../images/fondos/fondo_antioquia_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Caldas{
+    background-image: url("../images/fondos/fondo_caldas_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cundinamarca{
+    background-image: url("../images/fondos/fondo_cundinamarca_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Cauca{
+    background-image: url("../images/fondos/fondo_cauca_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Valle{
+    background-image: url("../images/fondos/fondo_valle_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Magdalena{
+    background-image: url("../images/fondos/fondo_magdalena_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Quindio{
+    background-image: url("../images/fondos/fondo_quindio_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Tolima{
+    background-image: url("../images/fondos/fondo_tolima_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
 
 
 }
