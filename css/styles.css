@@ -920,50 +920,47 @@ body {
 
 
 
+/*JUEGA*/
 
 
-.Carrusel1{
-    position: relative;
+
+/*----------------ENCABEZADO----------------*/
+.FondoPJuegos{
+    background-image: url("../images/fondos/fondo_juega_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
-
-.CarruselItem{
-    opacity: 0; /*Ocultamos todos los <li>*/
-    transition: opacity .5s;
-    position: absolute; /*Posicionamos en absoluto los <li>*/
+.TextoJP{
+    font-size: 100px;
+    font-weight: bolder;
+    color:white;
 }
-.Activar {
-    opacity: 1; /*Mostramos el primer <li>*/
+.TextoJP1{
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
 }
-
-.MapaIframeCaja{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 100%;
+.TextoJP2{
+    padding-left: 150px;
+    font-size: 60px;
+    font-weight: bolder;
 }
-.MapaIframe{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+.CajaTextoJP{
+    padding-left: 50px;
 }
-
-
-
-
-.tarjetaMYLQ{
-    padding: 10px;
-    margin: 5px;
-    width: 100%;
-}
-.alineaTarCaQ{
+.alineaTextoJP{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
+
+
+
+
+
+
 
 
 
@@ -1190,6 +1187,99 @@ body {
 
 
 
+
+/*BLOG*/
+
+
+
+
+
+
+/*----------------VIDEO ENCABEZADO BLOG----------------*/
+.FondoVBlo{
+    background-image: url("../images/fondos/fondo_blogv_movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+.espacioVblog{
+    padding-top: 20px;
+}
+.FondoCartelVBlo{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------MISION VISION----------------*/
+.FondoMisionVision{
+    background-image: url("../images/fondos/fondo_visionmision_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/*----------------FILOSOFIA----------------*/
+.FondoCartelFilo{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.imgFilosofia{
+    padding: 10px;
+}
+
+
+/*----------------EQUIPO DE TRABAJO----------------*/
+.FondoCartelEdT{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelEdT{
+    font-size: 15px;
+}
+
+
+
+/*----------------SPOT BLOG----------------*/
+.FondoVideoSpot{
+    background-image: url("../images/fondos/fondo-video-movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+}
+.EspacioSepaVideSpot{
+    padding-top: 0px;
+}
+.EspacioCartelVidSpot{
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+.FondoVidCSpot{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextCartelVideoSpot{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*----------------FITBOOKS----------------*/
+.EspacioCartelFli{
+    padding-top: 20px;
+}
+.FondoVidCFli{
+    background-image: url("../images/fondos/letreroMovil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 
