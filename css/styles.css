@@ -1150,6 +1150,130 @@ body {
 
 
 
+/*QUIEN ES SOL*/
+
+
+/*---------------------ENCABEZADO---------------------*/
+.FondoQuienSol{
+    background-image: url("../images/fondos/fondo_quienessol_web.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.EspcioFondoQuienSol{
+    padding-top: 60px;
+}
+.FondoTituloQuienSol{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.TextoTituloQuienSol{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+}
+.FondoBQuienSol{
+    border-radius: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ImagenQuienSol{
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.alineaImagenQuienSol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondoTextoQuienSol{
+    background-image: url("../images/fondos/plumas_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding: 30px;
+    margin-top: 10px;
+}
+.colorFondoTexto{
+    background-color: #ecc563;
+}
+
+
+
+
+/*---------------------MITO Y LEYENDA---------------------*/
+.FondoQueMito{
+    background-image: url("../images/fondos/fondo_queessol_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 190px;
+}
+.FondoTituloMitos{
+    background-image: url("../images/fondos/letreroV1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TextoTituloQuienMitos{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+}
+.FondoMitoD{
+    background-image: url("../images/fondos/letrero_leyendas_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ImagenMitosYLeyen{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.espacioDbajoMitoyLeyen{
+    padding-bottom: 50px;
+}
+.FondoBMitoyLeyen{
+    border-radius: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 30px;
+}
+
+.FondoMitoD1{
+    background-image: url("../images/fondos/letrero_mitos_web.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ImagenMitosYLeyen1{
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 
 
