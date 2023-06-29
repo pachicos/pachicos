@@ -1156,7 +1156,7 @@ body {
 /*---------------------ENCABEZADO---------------------*/
 .FondoQuienSol{
     background-image: url("../images/fondos/fondo_quienessol_web.jpg");
-    background-size: 100%;
+    background-size: 180%;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -1196,10 +1196,10 @@ body {
     align-items: center;
 }
 .fondoTextoQuienSol{
-    background-image: url("../images/fondos/plumas_web.png");
+    background-image: url("../images/fondos/plumas_w");
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position: center;
     padding: 30px;
     margin-top: 10px;
 }
@@ -1216,7 +1216,9 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
-    padding-top: 190px;
+    padding-top: 23%;
+    border-bottom-right-radius: 30% 10%;
+    border-bottom-left-radius: 30% 10%;
 }
 .FondoTituloMitos{
     background-image: url("../images/fondos/letreroV1.png");
@@ -1246,7 +1248,15 @@ body {
     padding-bottom: 40px;
 }
 .espacioDbajoMitoyLeyen{
-    padding-bottom: 50px;
+    padding-bottom: 70px;
+}
+.FondoBMitoyLeyen1{
+    border-radius: 10px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 30px;
 }
 .FondoBMitoyLeyen{
     border-radius: 10px;
@@ -1256,7 +1266,6 @@ body {
     background-position:center;
     padding: 30px;
 }
-
 .FondoMitoD1{
     background-image: url("../images/fondos/letrero_mitos_web.png");
     background-size: 100%;
@@ -1270,11 +1279,18 @@ body {
 }
 
 .ImagenMitosYLeyen1{
-    width: 50%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    width: 60%;
+
 }
 
+
+.ImaMariRecue{
+    width: 100%;
+}
+.FondoRecue{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
 
 
 
@@ -1294,7 +1310,7 @@ body {
 
 
 /* Very Small devices (phones, 50px and up)*/
-@media (min-width: 50px) and (max-width: 576px) {
+@media (min-width: 50px) and (max-width: 776px) {
 
     .alineaTarCJuegos{
         display: flex;
@@ -1394,7 +1410,9 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     margin-bottom: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
+    border-bottom-left-radius: 30% 10%;
+    border-bottom-right-radius: 30% 10%;
 }
 .EspacioCartelVid{
     padding-top: 110px;
@@ -1448,6 +1466,59 @@ body {
 
 
 
+/*JUEGA*/
+
+
+
+/*----------------ENCABEZADO----------------*/
+.CarruJuega{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.FondoPJuegos{
+    background-image: url("../images/fondos/fondo_juega_movil.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.TextoJP{
+    font-size: 100px;
+    font-weight: bolder;
+    color:white;
+}
+.TextoJP1{
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+}
+.TextoJP2{
+    padding-left: 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    color:white;
+}
+.CajaTextoJP{
+    padding-left: 50px;
+}
+.alineaTextoJP{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.solnauta{
+    width: 50%; 
+}
+.ubicaSolNauta{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+
+
 
 /*APRENDE*/
 
@@ -1457,7 +1528,7 @@ body {
 /*----------------ENCABEZADO APRENDE----------------*/
 .FondoEncabezadoAprende{
     background-image: url("../images/fondos/Fondo-apre-movil.jpg");
-    background-size: 110%;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position:top;
 }
@@ -1476,6 +1547,9 @@ body {
 }
 .EspacioSabesA {
     padding-top: 70px;
+}
+.espacioDebajoMyL{
+    background-color: white;
 }
 
 
@@ -1542,6 +1616,9 @@ body {
 }
 .imgFilosofia{
     padding: 10px;
+}
+.espacioFilo{
+    background-color: white;
 }
 
 
@@ -1728,6 +1805,96 @@ body {
     background-repeat: no-repeat;
     background-position: left;
 }
+
+
+
+
+
+
+
+
+/*QUIEN ES SOL*/
+
+
+/*---------------------ENCABEZADO---------------------*/
+.FondoQuienSol{
+    background-image: url("../images/fondos/fondo_quienessol_movil.j.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.FondoBQuienSol{
+    border-radius: 20px;
+    background-image: url("../images/fondos/fondo-blanco-letra.png");
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*---------------------MITO Y LEYENDA---------------------*/
+.FondoQueMito{
+    background-image: url("../images/fondos/fondo_queessol_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 23%;
+    border-bottom-right-radius: 30% 10%;
+    border-bottom-left-radius: 30% 10%;
+}
+.FondoMitoD{
+    background-image: url("../images/fondos/letrero_leyendas_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.ImagenMitosYLeyen{
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.espacioDbajoMitoyLeyen{
+    padding-bottom: 40px;
+}
+.FondoMitoD1{
+    background-image: url("../images/fondos/letrero_mitos_movil.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ImagenMitosYLeyen1{
+    width: 35%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.ImaMariRecue{
+    width: 100%;
+}
+.FondoRecue{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+
+
 
 
 

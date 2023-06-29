@@ -23,6 +23,10 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <!--Titulo de la pagina-->
     <title>Pa' Chicos - Cauca</title>
 
@@ -150,15 +154,8 @@
                     
                     <div class="row justify-content-center">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
-                            <div>
-                                <audio id="mireproductor" src="mi-archivo-de-audio.mp3"></audio>
-                                <div>
-                                    <button onclick="document.getElementById('player').play()">Play</button>
-                                    <button onclick="document.getElementById('player').pause()">Pausa</button>
-                                    <button onclick="document.getElementById('player').load()">Stop</button>
-                                    <button onclick="document.getElementById('player').volume += .1">Subir volumen</button>
-                                    <button onclick="document.getElementById('player').volume -= .1">Bajar volumen</button>
-                                </div>
+                            <div class="centrarAudio">
+                                <audio controls src="audio/duende.mp3"></audio> 
                             </div>
                         </div>
                     </div>
